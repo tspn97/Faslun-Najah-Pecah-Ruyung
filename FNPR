@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laporan Faslun Najah / Pecah Ruyung</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 20px;
+    }
+    h1 {
+      color: maroon;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      margin-bottom: 4px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background-color: maroon;
+      color: #fff;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #800000;
+    }
+  </style>
+</head>
+<body>
+  <h1>Laporan Faslun Najah / Pecah Ruyung</h1>
+
+  <div class="form-group">
+    <label>Nama Guru:</label>
+    <input type="text" />
+  </div>
+
+  <div class="form-group">
+    <label>Tarikh:</label>
+    <input type="date" />
+  </div>
+
+  <div class="form-group">
+    <label>Masa (cth: 8.00 pagi - 10.00 pagi):</label>
+    <input type="text" />
+  </div>
+
+  <div class="form-group">
+    <label>Tingkatan & Kelas:</label>
+    <select>
+      <option value="">-- Pilih --</option>
+      <option value="4 Al-Battani">4 Al-Battani</option>
+      <option value="4 Al-Farabi">4 Al-Farabi</option>
+      <option value="4 Al-Kindi">4 Al-Kindi</option>
+      <option value="4 Al-Khawarizmi">4 Al-Khawarizmi</option>
+      <option value="5 Al-Battani">5 Al-Battani</option>
+      <option value="5 Al-Farabi">5 Al-Farabi</option>
+      <option value="5 Al-Kindi">5 Al-Kindi</option>
+      <option value="5 Al-Khawarizmi">5 Al-Khawarizmi</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Jenis Kelas:</label>
+    <select>
+      <option value="Faslun Najah">Faslun Najah</option>
+      <option value="Pecah Ruyung">Pecah Ruyung</option>
+      <option value="Kelas Ganti">Kelas Ganti</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Subjek:</label>
+    <input type="text" />
+  </div>
+
+  <div class="form-group">
+    <label>Bilangan Murid Hadir:</label>
+    <input type="number" />
+  </div>
+
+  <div class="form-group">
+    <label>Nama Murid Tidak Hadir:</label>
+    <textarea rows="3"></textarea>
+  </div>
+
+  <div class="form-group">
+    <label>Aktiviti:</label>
+    <textarea rows="4" placeholder="Contoh: Latihan Modul, Perbincangan soalan KBAT..."></textarea>
+  </div>
+
+  <div class="form-group">
+    <label>Upload Gambar (max 2):</label>
+    <input type="file" multiple accept="image/*" />
+  </div>
+
+  <button>Hantar Laporan</button>
+
+</body>
+</html>
